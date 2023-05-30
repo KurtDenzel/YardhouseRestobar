@@ -1,0 +1,24 @@
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: #ff9900;
+  display: none;
+}
+
+ul li a:hover, ul li a.active {
+  /*background: #4360b5;*/
+  /*color: #fff;*/
+}
+
+ul li a:hover:before, ul li a.active:before {
+  display: block;
+}
+
+.topbar.static-top {
+  background-color: #ff9900;
+}
+
